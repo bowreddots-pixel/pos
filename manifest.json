@@ -1,0 +1,21 @@
+{
+  "name": "Pijar Netra POS",
+  "short_name": "Pijar POS",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#2E5A27",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://bowreddots-pixel.github.io/pos/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://bowreddots-pixel.github.io/pos/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
