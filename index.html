@@ -28,7 +28,7 @@ header{position:fixed;top:0;z-index:50;background:rgba(15,15,15,.92);backdrop-fi
 .tab{flex:1;padding:12px 0;text-align:center;font-size:.85rem;font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent}
 .tab.active{color:var(--accent-light);border-bottom-color:var(--accent-light)}
 .content{flex:1;overflow-y:auto;padding-bottom:90px}
-.panel{display:none;padding:14px}.panel.active{display:block}
+.panel{position:fixed;display:none;padding:14px}.panel.active{display:block}
 .cat-scroll{display:flex;gap:8px;overflow-x:auto;padding-bottom:12px;margin-bottom:8px;scrollbar-width:none}
 .cat-scroll::-webkit-scrollbar{display:none}
 .cat-btn{flex-shrink:0;padding:7px 14px;border-radius:20px;background:var(--card2);border:1px solid var(--border);color:var(--muted);font-size:.8rem;font-weight:600;cursor:pointer}
